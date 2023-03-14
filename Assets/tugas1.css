@@ -1,0 +1,254 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    /* font-family: 'Footlight MT Light'; */
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'comic sans ms';
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    background: url(./Images/bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.containe {
+    width:20%;
+    height:330px;
+    float:right;
+    padding: 25px;
+}
+
+#content {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.wrap {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color: black;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    background-color: rgba(4, 109, 158, 0.15);
+    backdrop-filter: blur(5px); 
+    z-index: 1;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 15px 0px 15px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+.column {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.column .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family:comic sans ms;
+    color: #2F8F9D;
+}
+
+h2 {
+    font-family: Trebuchet MS;
+    font-weight: 800;
+    font-size: 45px;
+    color: #2F8F9D;
+    width: 100%;
+    line-height: 50px;
+}
+
+.button {
+    background: #256D85;
+    border-radius: 25px;
+    margin-top: 20px;
+    padding: 10px 25px 10px 25px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: #9C9EFE;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.right {
+    float: right;
+    margin: -50px;
+}
+
+.mid{
+    text-align: center;
+    width: 100%;
+}
+
+.list-favorite {
+    width: 100%;
+    position: relative;
+    display: flex; 
+}
+
+.img-part{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.img-part img {
+    width: 80%;
+    border-radius: 10%;
+}
+
+.img-part p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    color: #2F8F9D;
+}
+
+.containe aside {
+    width:20%;
+    height:330px;
+    float:right;
+    padding: 25px;
+}
+
+#contact {
+    background: url(./Images/noel-bg.jpg);
+    background-size: cover;
+    /* width: 0px 0px 0px 0px; */
+    background-position: center;
+    padding: 30px 0px 30px 0px;
+}
+
+.contacts {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.contacts-sect {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.footer-bottom {
+    text-align: center;
+    width: auto;
+    margin: auto;
+    position: relative;
+    color: whitesmoke;
+    background-color: #256D85;
+    background-position: center;
+    background-size: cover;
+    padding: 15px;
+}
+
+h3 {
+    font-family: courier;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #2F8F9D;
+    width: 100%;
+    line-height: 50px;
+}
+
+@media screen and (max-width: 991.98px){
+    .wrap {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
